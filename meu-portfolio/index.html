@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu portfólio profissional de TI">
+    <title>Meu Portfólio de TI</title>
+    <!-- Modern Font: Outfit -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar / Navigation -->
+        <nav class="sidebar glass">
+            <div class="profile-header">
+                <div class="avatar">
+                    <img src="fotos/foto perfil.png" alt="">
+                </div>
+                <h1>Jefferson Pagnoncelli</h1>
+                <p>Desenvolvendo soluções que conectam indústria, dados e tecnologia.</p>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li class="active" data-target="sobre">Sobre Mim</li>
+                <li data-target="projetos">Projetos</li>
+                <!--<li data-target="carreira">Carreira em TI</li>-->
+                <li data-target="certificados">Certificados</li>
+                <!-- ADICIONE NOVAS ABAS AQUI: -->
+                <!-- <li data-target="nova_aba">Minha Nova Aba</li> -->
+            </ul>
+
+
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+
+            <!-- Section: Sobre Mim -->
+            <section id="sobre" class="tab-content active glass">
+                <h2>Sobre Mim</h2>
+                <div class="content-body" id="sobre-body">
+                    <p> <br>Atuo há mais de 5 anos no ramo industrial, passando por diferentes segmentos de linha de
+                        produção,
+                        o
+                        que me proporcionou uma visão prática e estratégica dos processos industriais. Atualmente, curso
+                        Gestão de Produção Industrial, consolidando essa experiência com fundamentos técnicos e foco em
+                        melhoria contínua.</br>
+
+                        <br> Ao longo dessa jornada, venho integrando tecnologia ao ambiente industrial, com
+                        conhecimentos em
+                        Python (utilizando bibliotecas como Pandas e Seaborn para análise de dados), banco de dados como
+                        PostgreSQL e desenvolvimento web com HTML, CSS e JavaScript. Também possuo breve experiência em
+                        desenvolvimento Java com ferramentas Spring Boot, JPA e Hibernate,
+                        além de familiaridade com sistemas ERP como
+                        TOTVS.</br>
+
+                        <br>Tenho certificações em Power BI e Segurança da Informação, e habilidades na criação
+                        de
+                        dashboards e análises que auxiliam na tomada de decisão. Além disso, possuo conhecimento em
+                        Excel avançado e já tive contato com práticas de DevOps, utilizando Docker e AWS para ambientes
+                        modernos e escaláveis.</br>
+
+                        <br>Meu foco é conectar indústria, dados e tecnologia, desenvolvendo soluções que otimizem
+                        processos, aumentem a eficiência e gerem valor real para o negócio. Estou em constante evolução,
+                        buscando aprimorar minhas habilidades e contribuir de forma cada vez mais estratégica no
+                        ambiente tecnológico e industrial.</br>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section: Projetos -->
+            <section id="projetos" class="tab-content glass">
+                <h2>Meus Projetos</h2>
+                <div class="grid-container" id="projetos-grid">
+                    <!-- Cards de projetos carregados via API -->
+                </div>
+            </section>
+
+            <!-- Section: Carreira -->
+            <!--<section id="carreira" class="tab-content glass">
+                <h2>Minha Carreira em TI</h2>
+                <div class="timeline" id="carreira-timeline">
+                     Linha do tempo carregada via API 
+                </div>
+            </section>-->
+
+            <!-- Section: Certificados -->
+            <section id="certificados" class="tab-content glass">
+                <h2>Meus Certificados</h2>
+                <div class="grid-container" id="certificados-grid">
+                    <p><br>Ensino Médio Completo – Instituto Estadual de Educação Tiradentes;</br>
+                        <br>Curso de Assistente Administrativo 2018/2019 800 horas – CFP SENAI NOVA PRATA –
+                        Concluído;</br>
+                        <br>Curso de Operador de Empilhadeira NR11 – Concluído;</br>
+                        <br>Curso de Desenvolvimento Back-end (Python, desenvolvimento web, automatização e manipulação
+                        de dados, DevOps e Deploy) – EBAC – Concluído.</br>
+                        <br>Curso de Segurança da Informação – Udemy – Concluído </br>
+                        <br>Curso de Rede de Computadores – Básico ao Avançado – Concluído.</br>
+                        <br>Curso Google Cybersecurity – Cousera – Concluído.</br>
+                        <br>Curso Power BI Básico ao Avançado – Udemy – Concluído.</br>
+                        <br>Curso de DevOps (Kubernetes, Docker e Rancher) – Em andamento.</br>
+                        <br>Curso de Gestão de Projetos – Em andamento.</br>
+                        <br>Superior em Gestão de Produção Industrial (UNINTER) – Em andamento (2º semestre).</br>
+                    </p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <div class="modal" id="modal">
+        <img src="fotos/foto perfil.png" alt="">
+    </div>
+
+    <!-- Elementos de Decoração Fluída (Background Blob) -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
